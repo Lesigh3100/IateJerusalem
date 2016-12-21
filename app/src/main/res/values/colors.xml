@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFCCBC</color>
+    <color name="cafe">#90CAF9</color>
+    <color name="fine_dining">#BCAAA4</color>
+    <color name="middle_eastern">#FFAB91</color>
+    <color name="fast_food">#C5E1A5</color>
+    <color name="other">#FFFF8D</color>
+    <color name="black">#000000</color>
+    <color name="hyper_Link">#0000EE</color>
+    <color name="checkbox_active">#757575</color>
+    <color name="checkbox_inactive">#bdbdbd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#9E9E9E</color>
+    <color name="light_green">#9CCC65</color>
+</resources>

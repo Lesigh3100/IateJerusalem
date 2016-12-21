@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <gradient
+        android:centerColor="@color/fast_food"
+        android:startColor="@color/fast_food"
+        android:endColor="@color/fast_food"
+        android:type="linear"
+        />
+    <size
+        android:height="132dp"
+        android:width="14dp"
+        />
+</shape>

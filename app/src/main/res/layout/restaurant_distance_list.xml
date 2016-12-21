@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/restaurant_list_distance"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    android:background="@drawable/border"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/text_box_distance"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/text_container_distance1"
+            android:layout_width="0dp"
+            android:layout_height="132dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/restaurant_distance_name"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Restaurant Name Here"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/restaurant_distance"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Distance"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/restaurant_distance_type"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Restaurant Hours"
+                android:textColor="@color/black"
+
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_container_distance2"
+            android:layout_width="0dp"
+            android:layout_height="132dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/distance_call_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/restaurant_distance_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Phone Number"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/distance_map_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/restaurant_distance_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Restaurant Address"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/restaurant_distance_website"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/hyper_Link"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
