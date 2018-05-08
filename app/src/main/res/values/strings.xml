@@ -231,7 +231,7 @@
     <string name="address_format">+Jerusalem+Israel|</string>
     <string name="stringbuilder1"><![CDATA[https://maps.googleapis.com/maps/api/distancematrix/json?&units=metric&origins=]]></string>
     <string name="stringbuilder2"><![CDATA[&destinations=]]></string>
-    <string name="stringbuilder3"><![CDATA[&key=AIzaSyB6EGIyLVJA7tKs_FJcYSSeZ25IZKbAdls]]></string>
+    <string name="stringbuilder3"><![CDATA[&key=]]></string>
     <string name="get">GET</string>
     <string name="rows">rows</string>
     <string name="elements">elements</string>
